@@ -34,7 +34,6 @@ namespace Fitness.CMD
 
             Console.WriteLine(userController.CurrentUser);
 
-
             Console.WriteLine("  Что вы хотите сделать?");
             Console.WriteLine("  E - ввести прием пищи");
             var key = Console.ReadKey();
