@@ -26,7 +26,7 @@ namespace Fitness.BL.Controller
             {
                 if (fs.Length > 0 && formatter.Deserialize(fs) is T items)
                 {
-                    return items ;
+                    return items;
                 }
                 else
                 {
